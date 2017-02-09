@@ -1,0 +1,39 @@
+html {
+    background-color: #F2F2F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.topnav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E6E6;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #262626;
+    text-align: center;
+    padding: 12px 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+ul.topnav li a:hover {
+    color: #2e2eb8; 
+}
