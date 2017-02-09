@@ -1,3 +1,3 @@
 # Nochebuena
 
-Nochebuena (literally "the Good Night") is the Spanish word for Christmas Eve. I pick this name for my recipe website, because is a day when families (especially in Latin America, Spain and the Philippines) gather together with music and a traditional dinner.
+Nochebuena (literally "the Good Night") is the Spanish word for Christmas Eve. I pick this name for my Puerto Rican recipe website, because is a day when family members (especially within Latino households) gather together to rejoice and feast.
