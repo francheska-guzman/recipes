@@ -1,7 +1,7 @@
 /* Applied for all pages. */
 
 html {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* White */
 }
 
 * {
@@ -9,15 +9,19 @@ html {
     padding: 0px;
 }
 
+/* Fonts from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 ul.nav {
     width: 100%;
     position: fixed;
     list-style-type: none;
     overflow: hidden;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* White */
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #E6E6E6;
+    border-bottom-color: #cccccc;
 }
 
 ul.nav li {
@@ -30,7 +34,7 @@ ul.nav li a {
     text-align: center;
     padding: 14px 22px;
     text-decoration: none;
-    font-family: Helvetica;
+	font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
 
@@ -44,8 +48,9 @@ ul.nav li a:hover {
     float: right;
     width: 100%;
     height: 600px;
+    margin-top: 53px;
     text-align: center;
-    background-color: #CCCCCC;
+    background-color: #e6e6e6;
     color: #262626;
 }
 
@@ -54,7 +59,7 @@ ul.nav li a:hover {
     width: 75%;
     height: 400px;
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #d9d9d9;
     color: #262626;
 }
 
@@ -63,7 +68,7 @@ ul.nav li a:hover {
     width: 25%;
     height: 400px;
     text-align: center;
-    background-color: #bfbfbf;
+    background-color: #f2f2f2;
     color: #262626;
 }
 
@@ -73,7 +78,7 @@ ul.nav li a:hover {
     width: 100%;
     height: 100px;
     text-align: center;
-    background-color: #303030;
+    background-color: #404040;
     color: #262626;
 }
 
@@ -82,9 +87,10 @@ ul.nav li a:hover {
 #culture {
     float: left;
     width: 100%;
-    height: 1400px;
+    height: 800px;
+    margin-top: 53px;
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #f2f2f2;
     color: #262626;
 }
 
@@ -93,26 +99,36 @@ ul.nav li a:hover {
 #cuisine {
     float: left;
     width: 100%;
-    height: 200px;
+    height: 150px;
+    margin-top: 53px;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #2b2a2a;
     color: #262626;
 }
 
-#section {
+#sectionl {
     float: left;
-    width: 50%;
-    height: 300px;
+    width: 20%;
+    height: 800px;
     text-align: center;
-    background-color: #bfbfbf;
+    background-color: #e6e6e6;
 }
 
-/* Contact Page */
+#sectionr {
+    float: left;
+    width: 80%;
+    height: 800px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
 
-#contact {
+/* About Page */
+
+#about {
     float: left;
     width: 100%;
-    height: 1500px;
+    height: 600px;
+    margin-top: 53px;
     text-align: center;
     background-color: #303030;
     color: #262626;
