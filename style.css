@@ -82,7 +82,7 @@ ul.nav li a:hover {
 #culture {
     float: left;
     width: 100%;
-    height: 700px;
+    height: 1400px;
     text-align: center;
     background-color: #e6e6e6;
     color: #262626;
@@ -93,18 +93,18 @@ ul.nav li a:hover {
 #cuisine {
     float: left;
     width: 100%;
-    height: 150px;
+    height: 200px;
     text-align: center;
-    background-color: #303030;
+    background-color: #f2f2f2;
     color: #262626;
 }
 
 #section {
     float: left;
     width: 50%;
-    height: 200px;
+    height: 300px;
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #bfbfbf;
 }
 
 /* Contact Page */
@@ -112,7 +112,7 @@ ul.nav li a:hover {
 #contact {
     float: left;
     width: 100%;
-    height: 800px;
+    height: 1500px;
     text-align: center;
     background-color: #303030;
     color: #262626;
