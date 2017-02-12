@@ -30,7 +30,7 @@ ul.nav li {
 
 ul.nav li a {
     display: inline-block;
-    color: #cc3300; /* Red */
+    color: #4db8ff; /* Blue */
     text-align: center;
     padding: 14px 22px;
     text-decoration: none;
@@ -39,18 +39,18 @@ ul.nav li a {
 }
 
 ul.nav li a:hover {
-    color: #4db8ff; /* Blue */
+    color: #bcbcbc;
 }
 
 /* Unvisited link. */
 a:link {
-    color: #969696;
+    color: #bcbcbc;
     text-decoration: none; /* No underline */
 }
 
 /* Visited link. */
 a:visited {
-    color: #969696;
+    color: #bcbcbc;
     text-decoration: none;
 }
 
@@ -59,7 +59,6 @@ a:hover {
     color: #4db8ff ; /* Blue */
     text-decoration: none;
 }
-
 
 .center {
     position: relative;
@@ -71,6 +70,10 @@ p.center {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #cc3300; /* Red */
 }
 
 /* Index Page */
@@ -90,7 +93,7 @@ p.center {
     width: 75%;
     height: 400px;
     text-align: center;
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     color: #262626;
 }
 
@@ -132,7 +135,7 @@ p.center {
 #cookery {
     float: left;
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin-top: 53px;
     text-align: center;
     background-color: #2b2a2a;
@@ -141,7 +144,7 @@ p.center {
 
 #sectionl {
     float: left;
-    width: 20%;
+    width: 25%;
     height: 800px;
     text-align: center;
     background-color: #e6e6e6;
@@ -149,7 +152,7 @@ p.center {
 
 #sectionr {
     float: left;
-    width: 80%;
+    width: 75%;
     height: 800px;
     text-align: center;
     background-color: #f2f2f2;
