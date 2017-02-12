@@ -44,19 +44,22 @@ ul.nav li a:hover {
 
 /* Unvisited link. */
 a:link {
-    color: #bcbcbc;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none; /* No underline */
 }
 
 /* Visited link. */
 a:visited {
-    color: #bcbcbc;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
 /* Mouse over link. */
 a:hover {
     color: #4db8ff ; /* Blue */
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
@@ -72,10 +75,12 @@ p.center {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    color: #cc3300; /* Red */
+h2 {
+    color: #404040;
+    font-family: 'Quicksand', sans-serif;
 }
 
+/* #cc3300; Red */
 /* Index Page */
 
 #header {
@@ -132,28 +137,57 @@ h1 {
 
 /* Cookery Page */
 
-#cookery {
+#cookeryl {
     float: left;
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 600px;
     margin-top: 53px;
-    text-align: center;
-    background-color: #2b2a2a;
+    background-color: #FFFFFF;
     color: #262626;
 }
 
-#sectionl {
+#cookeryr {
     float: left;
-    width: 25%;
-    height: 800px;
+    width: 50%;
+    height: 600px;
+    margin-top: 53px;
+    background-color: #FFFFFF;
+    color: #262626;
+}
+
+/* Recipe Layout */
+
+#video {
+    float: left;
+    width: 70%;
+    height: 500px;
+    margin-top: 53px;
+    text-align: center;
+    background-color: #2b2a2a;
+}
+
+#ingredients {
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 53px;
     text-align: center;
     background-color: #e6e6e6;
 }
 
-#sectionr {
+#time {
     float: left;
-    width: 75%;
-    height: 800px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+#directions {
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 300px;
     text-align: center;
     background-color: #f2f2f2;
 }
