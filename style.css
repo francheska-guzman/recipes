@@ -42,6 +42,18 @@ ul.nav li a:hover {
     color: #4db8ff; 
 }
 
+.center {
+    position: relative;
+}
+
+p.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Index Page */
 
 #header {
