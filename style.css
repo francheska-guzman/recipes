@@ -44,19 +44,19 @@ ul.nav li a:hover {
 
 /* Unvisited link. */
 a:link {
-    color: #4db8ff; /* Blue */
+    color: #969696;
     text-decoration: none; /* No underline */
 }
 
 /* Visited link. */
 a:visited {
-    color: #4db8ff; /* Blue */
+    color: #969696;
     text-decoration: none;
 }
 
 /* Mouse over link. */
 a:hover {
-    color: #cc3300; /* Red */
+    color: #4db8ff ; /* Blue */
     text-decoration: none;
 }
 
