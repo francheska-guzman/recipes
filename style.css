@@ -136,18 +136,20 @@ h2 {
 
 #leftsection {
     float: left;
-    width: 50%;
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 45%;
     height: 600px;
-    margin-top: 53px;
     background-color: #FFFFFF;
     color: #262626;
 }
 
 #rightsection {
     float: left;
-    width: 50%;
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 45%;
     height: 600px;
-    margin-top: 53px;
     background-color: #FFFFFF;
     color: #262626;
 }
